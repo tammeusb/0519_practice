@@ -11,16 +11,22 @@
     
     <div class="p-container">
         <h1>Heading</h1>
-        <p>None of this text should scale at all when I zoom in and out.</p>
+        <p>None of this text should scale at all when I adjust the browser's width.</p>
     </div>
 
     <div class="p-container">
         <h1>Heading</h1>
-        <p>This text should scale with the viewport when I zoom in and out.</p>
+        <p class="scale good">This text should scale with the viewport when I adjust the browser's width.</p>
     </div>
+
     <div class="p-container">
         <h1>Heading</h1>
-        <p>This text should scale way too much with the viewport when I zoom in and out.</p>
+        <p class="scale bad">This text should scale way too much with the viewport when I adjust the browser's width.</p>
+    </div>
+
+    <div class="p-container">
+        <h1>Heading</h1>
+        <p class="scale base">This text should scale with the browser's font-size property.</p>
     </div>
 
 </body>

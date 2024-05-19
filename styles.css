@@ -1,0 +1,16 @@
+body {
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.scale.good {
+    font-size: calc(10px + 2svw);
+}
+
+.scale.bad {
+    font-size: 5vw;
+}
+
+.scale.base {
+    font-size: 2rem;
+}
